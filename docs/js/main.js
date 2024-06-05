@@ -100,7 +100,7 @@ class Bonus
 }
 
 // (name, cost, factor, id, automate~) 
-let one = new Bonus('Немного улучшить хуй', 10, 0.1, 'one', false, (localStorage.getItem('one')) ? parseInt(localStorage.getItem('one')) : 0);
+let one = new Bonus('Немного улучшить', 10, 0.1, 'one', false, (localStorage.getItem('one')) ? parseInt(localStorage.getItem('one')) : 0);
 let two = new Bonus('Слабая автоматическая добывалка', 100, 1, 'two', true, (localStorage.getItem('two')) ? parseInt(localStorage.getItem('two')) : 0);
 let three = new Bonus('Сильно улучшить клик', 1000, 1.1, 'three', false, (localStorage.getItem('three')) ? parseInt(localStorage.getItem('three')) : 0);
 let four = new Bonus('Сильная автоматическая добывалка', 5000, 10, 'four', true, (localStorage.getItem('four')) ? parseInt(localStorage.getItem('four')) : 0);
